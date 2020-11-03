@@ -9,7 +9,7 @@ import pdb
 
 
 def decomposed_linear(input, sparsity, magnitudes, signs, bias=None):
-    assert magnitudes.min() >= 0.
+    assert  magnitudes.min() >= 0.
     mag_signs = torch.mul(magnitudes, signs)  # sign_vector is broadcasted and multiplied with every row of `magnitudes`
     weight = torch.mul(sparsity, mag_signs)
 
