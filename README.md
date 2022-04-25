@@ -50,9 +50,9 @@ python main.py --neuron_holdout list_of_neuron_holdout --train_worm list_of_worm
 Checkpints are saved as `experiment/chechpoints/task_name.pt` files , the training logging are saved as `experiment/logs/task_name.log` file; and the training loss trajectory are saved in the `experiment/loss_trajectories/task_name.pickle`. `task_name` is automatically defined with the options of arguments (neuron holdout, train worm, model types, constraint, etc.) described above.
 
 ### Sample Results
-- Neuron holdout for neuron BAGL under different type of synapse model types and levels of connectome constraints.
+- Neuron holdout under different type of synapse model types and levels of connectome constraints.
   <div align="center">
-  <img src="readme_imgs/BAGL_neuron_holdout.png">
+  <img src="readme_imgs/neuron_holdout.png">
   </div>
 - Measured fluorescence traces (including unrecorded neurons) and inferred voltage for whole-brain (300 neurons).
   <div align="center">
