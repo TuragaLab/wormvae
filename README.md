@@ -23,14 +23,14 @@ cd wormvae
 - Data folder `data/worm_connectivity` provides the connectome from C.elegans from the paper [The Structure of the Nervous System of the Nematode Caenorhabditis elegans (The Mind of a Worm)](https://www.wormatlas.org/MoW_built0.92/MoW.html).
 - C.elegan Connectome.
   <div align="center">
-  <img src="readme_imgs/connectome.png">
+  <img src="readme_imgs/connectome.png" width="400" height="200">
   </div>
 
 ### Worm Activity
 - Data folder `data/worm_activity` provides the measured fluorescence trace from C.elegans given chemosensory stimulus from the paper [NeuroPAL: A Multicolor Atlas for Whole-Brain Neuronal Identification in C. elegans](https://www.sciencedirect.com/science/article/pii/S0092867420316822).
 - NeuroPAL Calcium Imaging of C.elegans.
   <div align="center">
-  <img src="readme_imgs/NeuroPAL_calcium_imaging.png">
+  <img src="readme_imgs/NeuroPAL_calcium_imaging.png" width="400" height="200">
   </div>
 
 ## Scripts Usage
@@ -56,6 +56,6 @@ Checkpints are saved as `experiment/chechpoints/task_name.pt` files , the traini
   </div>
 - Measured fluorescence traces (including unrecorded neurons) and inferred voltage for whole-brain (300 neurons).
   <div align="center">
-  <img src="readme_imgs/measure_fluorescence_infer_voltage.png">
+  <img src="readme_imgs/measure_fluorescence_infer_voltage.png" width="500" height="160">
   </div> 
   
