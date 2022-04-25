@@ -46,7 +46,7 @@ python main.py --neuron_holdout list_of_neuron_holdout --train_worm list_of_worm
 - `--constraint` defines the constraint to synapse weight. `--constraint weight` indicates using connectome synapse count to constrain the weight; `--constraint sparsity` indicates using connectome synapse sparsity (binarized matrix) to constrain the sparsity, while the magnitude is still trainable; `--constraint unconstrained` indicates without connectome constrained, the weight is fully-connected matrix and the magnitude is trainable.
 - `--random_init_index` defines the index of random initialization in each training trial. In the paper, we use 4 different random initializations to evaluate the models, e.g. `--random_init_index 0`.
 
-## Outputs
+## Results
 Checkpints are saved as `experiment/chechpoints/task_name.pt` files , the training logging are saved as `experiment/logs/task_name.log` file; and the training loss trajectory are saved in the `experiment/loss_trajectories/task_name.pickle`. `task_name` is automatically defined with the options of arguments (neuron holdout, train worm, model types, constraint, etc.) described above.
 
 ### Sample Results
