@@ -123,6 +123,6 @@ loss_list, recon_loss_list, KLD_list = train(data_loader = trainloader,
                                              savepath = savepath)
 
 loss_dict = {'loss': loss_list, 'recon_loss': recon_loss_list, 'KLD': KLD_list}
-with open(exp_name+'_loss.pickle', 'wb') as handle:
+with open('loss_trajectories/' + exp_name+'_loss.pickle', 'wb') as handle:
     pickle.dump(loss_dict, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
