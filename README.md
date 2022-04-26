@@ -16,6 +16,7 @@ git clone https://github.com/TuragaLab/wormvae.git
 cd wormvae
 ```
 - Install dependencies by using `conda env create -f environment.yml`.
+- Activate conda enviroment by using `conda activate wormvae`.
 
 ## Datasets Visualization
 
